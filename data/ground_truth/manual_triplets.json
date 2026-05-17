@@ -1,0 +1,191 @@
+[
+  {
+    "source_directive": "WEEE Annex I",
+    "subject": "Category 1",
+    "predicate": "DEFINED_AS",
+    "object": "Large household appliances",
+    "context": "Transitional period (until 14 August 2018)"
+  },
+  {
+    "source_directive": "WEEE Annex III",
+    "subject": "Category 1",
+    "predicate": "DEFINED_AS",
+    "object": "Temperature exchange equipment",
+    "context": "Post-15 August 2018 open scope"
+  },
+  {
+    "source_directive": "WEEE Annex III",
+    "subject": "Category 2",
+    "predicate": "DEFINED_AS",
+    "object": "Screens, monitors, and equipment containing screens having a surface greater than 100 cm²",
+    "context": "Post-15 August 2018"
+  },
+  {
+    "source_directive": "WEEE Annex III",
+    "subject": "Category 3",
+    "predicate": "DEFINED_AS",
+    "object": "Lamps",
+    "context": "Post-15 August 2018"
+  },
+  {
+    "source_directive": "WEEE Annex III",
+    "subject": "Category 4",
+    "predicate": "DEFINED_AS",
+    "object": "Large equipment (any external dimension more than 50 cm)",
+    "context": "Post-15 August 2018"
+  },
+  {
+    "source_directive": "WEEE Annex III",
+    "subject": "Category 5",
+    "predicate": "DEFINED_AS",
+    "object": "Small equipment (no external dimension more than 50 cm)",
+    "context": "Post-15 August 2018"
+  },
+  {
+    "source_directive": "WEEE Annex III",
+    "subject": "Category 6",
+    "predicate": "DEFINED_AS",
+    "object": "Small IT and telecommunication equipment (no external dimension more than 50 cm)",
+    "context": "Post-15 August 2018"
+  },
+  {
+    "source_directive": "WEEE Annex II",
+    "subject": "Refrigerators",
+    "predicate": "BELONGS_TO",
+    "object": "Category 1 (Large household appliances)",
+    "context": "Transitional + Annex IV"
+  },
+  {
+    "source_directive": "WEEE Annex IV",
+    "subject": "Photovoltaic panels",
+    "predicate": "BELONGS_TO",
+    "object": "Category 4 (Large equipment)",
+    "context": "Post-15 August 2018"
+  },
+  {
+    "source_directive": "WEEE Article 3",
+    "subject": "EEE",
+    "predicate": "DEFINED_AS",
+    "object": "Electrical and electronic equipment",
+    "context": "Dependent on electric currents or electromagnetic fields ≤1000V AC / 1500V DC"
+  },
+  {
+    "source_directive": "WEEE Article 3",
+    "subject": "Producer",
+    "predicate": "DEFINED_AS",
+    "object": "Person who manufactures or places EEE on the market under own name/trademark",
+    "context": "Article 3(1)(f)"
+  },
+  {
+    "source_directive": "WEEE Article 7",
+    "subject": "Collection rate",
+    "predicate": "MINIMUM_TARGET",
+    "object": "65% of average weight of EEE placed on market (3 preceding years)",
+    "context": "From 2019 onwards"
+  },
+  {
+    "source_directive": "WEEE Article 12",
+    "subject": "Producer",
+    "predicate": "HAS_FINANCIAL_RESPONSIBILITY",
+    "object": "WEEE from private households",
+    "context": "Collection, treatment, recovery and disposal"
+  },
+  {
+    "source_directive": "WEEE Annex VII",
+    "subject": "PCB-containing capacitors",
+    "predicate": "MUST_BE_REMOVED_FROM",
+    "object": "Separately collected WEEE",
+    "context": "In accordance with Directive 96/59/EC"
+  },
+  {
+    "source_directive": "WEEE Annex VII",
+    "subject": "Mercury-containing components",
+    "predicate": "MUST_BE_REMOVED_FROM",
+    "object": "Separately collected WEEE",
+    "context": "Switches, backlighting lamps etc."
+  },
+  {
+    "source_directive": "WEEE Annex VII",
+    "subject": "Batteries",
+    "predicate": "MUST_BE_REMOVED_FROM",
+    "object": "Separately collected WEEE",
+    "context": "General requirement"
+  },
+  {
+    "source_directive": "WEEE Annex VII",
+    "subject": "Printed circuit boards (mobile phones)",
+    "predicate": "MUST_BE_REMOVED_FROM",
+    "object": "Separately collected WEEE",
+    "context": "If surface > 10 cm² in other devices"
+  },
+  {
+    "source_directive": "WEEE Annex VII",
+    "subject": "Gas discharge lamps",
+    "predicate": "MUST_BE_REMOVED_FROM",
+    "object": "Separately collected WEEE",
+    "context": "Mercury shall be removed"
+  },
+  {
+    "source_directive": "WEEE Annex VII",
+    "subject": "Cathode ray tubes",
+    "predicate": "REQUIRES_SPECIAL_TREATMENT",
+    "object": "Fluorescent coating removal",
+    "context": "Annex VII.2"
+  },
+  {
+    "source_directive": "RoHS Annex III",
+    "subject": "Lead in solders",
+    "predicate": "EXEMPT_FOR",
+    "object": "Servers, storage & storage array systems",
+    "context": "Expires 2025"
+  },
+  {
+    "source_directive": "RoHS Annex III",
+    "subject": "Mercury in single capped fluorescent lamps",
+    "predicate": "EXEMPT_IN",
+    "object": "< 30 W general lighting purposes",
+    "context": "Max 5 mg per burner (phased reductions)"
+  },
+  {
+    "source_directive": "RoHS Annex III",
+    "subject": "Lead in glass of fluorescent tubes",
+    "predicate": "EXEMPT_IN",
+    "object": "≤ 0.2 % by weight",
+    "context": "Ongoing exemption"
+  },
+  {
+    "source_directive": "RoHS Annex III",
+    "subject": "Lead as alloying element in steel",
+    "predicate": "EXEMPT_IN",
+    "object": "Machining purposes & galvanised steel",
+    "context": "≤ 0.35% / 0.2% with various expiry dates"
+  },
+  {
+    "source_directive": "RoHS Annex III",
+    "subject": "Cadmium in downshifting semiconductor nanocrystal quantum dots",
+    "predicate": "EXEMPT_IN",
+    "object": "LED chips for displays",
+    "context": "<5 μg/mm², expires 31 Dec 2027"
+  },
+  {
+    "source_directive": "RoHS Annex III",
+    "subject": "Lead in high performance infrared imaging modules",
+    "predicate": "EXEMPT_IN",
+    "object": "8-14 μm range detection",
+    "context": "Specific high-reliability applications"
+  },
+  {
+    "source_directive": "RoHS Annex III",
+    "subject": "Lead in glass of cathode ray tubes",
+    "predicate": "EXEMPT_IN",
+    "object": "CRT glass",
+    "context": "Historical exemption, largely phased out"
+  },
+  {
+    "source_directive": "RoHS Annex III",
+    "subject": "Mercury in double-capped linear fluorescent lamps (T5)",
+    "predicate": "EXEMPT_IN",
+    "object": "Tri-band phosphor ≥9 mm and ≤17 mm",
+    "context": "3 mg per lamp"
+  }
+]

@@ -1,0 +1,1 @@
+import requests; print(requests.post('https://tg-a13de013-6c5d-4123-958a-fcec883464a9.tg-2635877100.i.tgcloud.io/restpp/requesttoken', json={'secret': '36se9igvh1iv09f3ptn269akitaifkr6'}).text)

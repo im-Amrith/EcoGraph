@@ -1,0 +1,1 @@
+import pyTigerGraph as tg; import load_to_tg; token = load_to_tg.get_tg_token(); conn = tg.TigerGraphConnection(host=load_to_tg.TG_HOST, graphname=load_to_tg.TG_GRAPH, apiToken=token); print(conn.getSchema())
