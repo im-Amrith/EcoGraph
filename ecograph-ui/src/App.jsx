@@ -41,9 +41,9 @@ export default function App() {
     };
 
     await Promise.allSettled([
-      fetchPipeline('http://localhost:8000/api/llm', setLlmState),
-      fetchPipeline('http://localhost:8000/api/vector-rag', setRagState),
-      fetchPipeline('http://localhost:8000/api/chat', setGraphState)
+      fetchPipeline('https://im-amrith-ecograph.hf.space/api/llm', setLlmState),
+      fetchPipeline('https://im-amrith-ecograph.hf.space/api/vector-rag', setRagState),
+      fetchPipeline('https://im-amrith-ecograph.hf.space/api/chat', setGraphState)
     ]);
 
     setIsRunning(false);
