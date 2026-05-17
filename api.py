@@ -25,6 +25,10 @@ app.add_middleware(
 class ChatRequest(BaseModel):
     question: str
 
+@app.get("/")
+def read_root():
+    return {"status": "ok", "message": "EcoGraph Backend is running! Use the /docs endpoint to see the API swagger."}
+
 @app.post("/api/chat")
 def chat_with_ecograph(request: ChatRequest):
     try:
